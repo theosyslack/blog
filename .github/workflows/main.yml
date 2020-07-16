@@ -25,3 +25,9 @@ jobs:
         deno-version: v1.x
     - run: 
         deno run --allow-read --allow-write --allow-run --unstable https://raw.githubusercontent.com/theosyslack/gab/master/gab.ts build .
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@3.5.7
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: build # The folder the action should deploy.
