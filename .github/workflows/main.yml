@@ -15,18 +15,13 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: hayd/alpine-deno:1.0.5
+    runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
-
-    # Runs a single command using the runners shell
-    - name: Build
-      run: docker run -it --init -v $PWD:/app hayd/alpine-deno:1.0.5 run "--allow-read" "--allow-write" "--allow-run" "--unstable" https://raw.githubusercontent.com/theosyslack/gab/master/gab.ts build .
-
-    - name: GitHub Pages
-      uses: crazy-max/ghaction-github-pages@v2.1.0
+    - uses: actions/checkout@master
+    - uses: denolib/setup-deno@v2
       with:
-        build_dir: dir
+        deno-version: v1.x
+    - run: 
+        deno run --allow-read --allow-write --allow-run --unstable https://raw.githubusercontent.com/theosyslack/gab/master/gab.ts build .
