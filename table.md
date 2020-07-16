@@ -1,12 +1,18 @@
 # table
 
 <table>
+    <thead>
+        <th> Name </th>
+        <th> Description </th>
+    </thead>
+    <tbody>
     <tr>
         <td>Foo</td>
-        <td>Bar</td>
+        <td>The fooilst little doodler</td>
     </tr>
     <tr>
         <td>Baz</td>
-        <td>Bleep</td>
+        <td>The bazziest little pazzer</td>
     </tr>
+    </tbody>
 </table>
