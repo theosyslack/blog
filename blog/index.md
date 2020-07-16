@@ -1,4 +1,4 @@
 # Blog
 
-[test](/blog/test.html)
-[New Test!](/blog/new.html)
+- [test](/blog/test.html)
+- [New Test!](/blog/new.html)
