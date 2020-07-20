@@ -1,5 +1,9 @@
-# Homepage
+# Theo Syslack's Website
+## Hi, I'm Theo Syslack. I'm a Developer.
 
-Hi I'm Theo
+---
 
-[Blog](/blog)
+### Posts
+
+- _No Posts Yet_
+
