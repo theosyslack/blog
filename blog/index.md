@@ -5,6 +5,6 @@ updatedAt: July 23rd, 2020
 
 # {{ title }}
 
-## {{updatedAt}}
+Last Updated: {{updatedAt}}
 
 - No Posts Yet
