@@ -372,6 +372,12 @@ p {
   line-height: 1.5;
 }
 
+p img {
+  display: block;
+  max-width: calc(100vw - 40px);
+  margin: 0 auto;
+}
+
 a {
   color: #edd69f;
   text-decoration: none;
