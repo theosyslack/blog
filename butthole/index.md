@@ -2,7 +2,7 @@
 
 ## Allie's got the good shit
 
-![Dennis](/public/images/allie/baby-yoda.jpg)
+![Baby Yoda who is Jewish](/public/images/allie/baby-yoda.jpg)
 
 ## Maddie has a bit
 
@@ -13,4 +13,4 @@
 
 ## Dennis has some stuff i guess
 
-![Dennis](/public/images/dennis/dennis-1.jpg)
+![Dennis is ok i guess](/public/images/dennis/dennis-1.jpg)
